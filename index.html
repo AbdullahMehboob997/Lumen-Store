@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUMEN Store - Modern Everyday Goods</title>
+    <meta name="description" content="A clean, beautiful one-page shopping experience for modern everyday goods built with pure HTML and CSS." />
+    <meta property="og:title" content="LUMEN Store - Modern Everyday Goods" />
+    <meta property="og:description" content="A clean, beautiful one-page shopping experience for modern everyday goods built with pure HTML and CSS." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Top Announcement Bar -->
+    <div class="top-banner">
+      Free Delivery on all orders over $50 · Use coupon code <span>SAVE10</span> for 10% discount!
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+      <a href="#" class="logo">
+        LUMEN<span>STORE</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#deal">Deals</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#products" class="cart-btn">
+          🛒 Cart (2)
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <span class="hero-tag">Special Collection 2026</span>
+        <h1>Minimal Goods for Modern Everyday Life</h1>
+        <p>
+          Discover our hand-selected catalog of premium everyday essentials.
+          Simple, high quality, and built to last.
+        </p>
+        <a href="#products" className="hero-btn" class="hero-btn">Shop Now</a>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <img
+          src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80"
+          alt="Shopping Hero"
+          class="hero-image"
+        />
+      </div>
+    </section>
+
+    <!-- Features Bar -->
+    <section class="features-bar">
+      <div class="feature-item">
+        <div class="feature-icon">🚚</div>
+        <div>
+          <h4>Free Shipping</h4>
+          <p>On orders above $50</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <div class="feature-icon">🛡️</div>
+        <div>
+          <h4>Secure Payments</h4>
+          <p>100% safe & encrypted</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <div class="feature-icon">🔄</div>
+        <div>
+          <h4>Easy Returns</h4>
+          <p>30-day money-back policy</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <div class="feature-icon">⭐</div>
+        <div>
+          <h4>Top Quality</h4>
+          <p>Handcrafted materials</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Grid Section -->
+    <section class="products-section" id="products">
+      <div class="section-header">
+        <span class="tag">Our Collection</span>
+        <h2>Featured Products</h2>
+        <p>Carefully selected items made with top tier craftsmanship.</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="product-thumb">
+            <span class="badge">Best Seller</span>
+            <img
+              src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80"
+              alt="Ceramic Coffee Dripper"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">Home & Kitchen</span>
+            <h3 class="product-title">Ceramic Coffee Dripper</h3>
+            <div class="product-rating">
+              ★★★★★ <span>(4.9 · 120 reviews)</span>
+            </div>
+            <div class="product-footer">
+              <div>
+                <span class="price">$34</span>
+                <span class="old-price">$45</span>
+              </div>
+              <a href="#products" class="buy-btn">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="product-thumb">
+            <span class="badge">Sale</span>
+            <img
+              src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80"
+              alt="Matte Desk Lamp"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">Lighting</span>
+            <h3 class="product-title">Matte Nordic Desk Lamp</h3>
+            <div class="product-rating">
+              ★★★★★ <span>(4.8 · 94 reviews)</span>
+            </div>
+            <div class="product-footer">
+              <div>
+                <span class="price">$88</span>
+                <span class="old-price">$110</span>
+              </div>
+              <a href="#products" class="buy-btn">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <div class="product-thumb">
+            <img
+              src="https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=600&q=80"
+              alt="Leather Cardholder"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">Accessories</span>
+            <h3 class="product-title">Slim Leather Cardholder</h3>
+            <div class="product-rating">
+              ★★★★★ <span>(5.0 · 210 reviews)</span>
+            </div>
+            <div class="product-footer">
+              <div>
+                <span class="price">$45</span>
+              </div>
+              <a href="#products" class="buy-btn">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+          <div class="product-thumb">
+            <span class="badge">Popular</span>
+            <img
+              src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=600&q=80"
+              alt="Handmade Ceramic Mug"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">Kitchenware</span>
+            <h3 class="product-title">Handmade Ceramic Mug</h3>
+            <div class="product-rating">
+              ★★★★☆ <span>(4.7 · 86 reviews)</span>
+            </div>
+            <div class="product-footer">
+              <div>
+                <span class="price">$26</span>
+                <span class="old-price">$32</span>
+              </div>
+              <a href="#products" class="buy-btn">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+          <div class="product-thumb">
+            <span class="badge">New</span>
+            <img
+              src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+              alt="Mechanical Keyboard"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">Desk Setup</span>
+            <h3 class="product-title">Compact Wireless Keyboard</h3>
+            <div class="product-rating">
+              ★★★★★ <span>(4.9 · 150 reviews)</span>
+            </div>
+            <div class="product-footer">
+              <div>
+                <span class="price">$135</span>
+                <span class="old-price">$160</span>
+              </div>
+              <a href="#products" class="buy-btn">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+          <div class="product-thumb">
+            <img
+              src="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80"
+              alt="Canvas Tote Bag"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">Bags</span>
+            <h3 class="product-title">Heavy Canvas Daily Tote</h3>
+            <div class="product-rating">
+              ★★★★★ <span>(4.8 · 112 reviews)</span>
+            </div>
+            <div class="product-footer">
+              <div>
+                <span class="price">$38</span>
+              </div>
+              <a href="#products" class="buy-btn">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card">
+          <div class="product-thumb">
+            <span class="badge">Hot</span>
+            <img
+              src="https://images.unsplash.com/photo-1609592424364-55be62cb4734?auto=format&fit=crop&w=600&q=80"
+              alt="Wireless Powerbank"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">Gadgets</span>
+            <h3 class="product-title">Magnetic Wireless Charger</h3>
+            <div class="product-rating">
+              ★★★★★ <span>(4.9 · 180 reviews)</span>
+            </div>
+            <div class="product-footer">
+              <div>
+                <span class="price">$54</span>
+                <span class="old-price">$65</span>
+              </div>
+              <a href="#products" class="buy-btn">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-card">
+          <div class="product-thumb">
+            <img
+              src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=600&q=80"
+              alt="Thermal Flask"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">Accessories</span>
+            <h3 class="product-title">Stainless Thermal Flask</h3>
+            <div class="product-rating">
+              ★★★★★ <span>(4.8 · 140 reviews)</span>
+            </div>
+            <div class="product-footer">
+              <div>
+                <span class="price">$32</span>
+              </div>
+              <a href="#products" class="buy-btn">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deal / Promo Banner -->
+    <section class="promo-banner" id="deal">
+      <div class="promo-text">
+        <h3>Limited Time Mid-Season Sale!</h3>
+        <p>
+          Get up to 40% off on all home and desk essentials. Stock is limited for this drop.
+        </p>
+      </div>
+      <a href="#products" class="promo-btn">Claim Discount</a>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="about-img">
+        <img
+          src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=800&q=80"
+          alt="About Our Workshop"
+        />
+      </div>
+      <div class="about-text">
+        <h2>Crafted With Care & Precision</h2>
+        <p>
+          Every item in our shop is selected for its thoughtful design, durable materials,
+          and honest utility. We do not chase fast trends — we make products you'll love having around for years.
+        </p>
+        <p>
+          From natural pottery to machined aluminum, our collection represents the very best in functional daily goods.
+        </p>
+        <a href="#products" class="hero-btn">Explore Items</a>
+      </div>
+    </section>
+
+    <!-- Newsletter / Contact Section -->
+    <section class="newsletter-section" id="contact">
+      <h3>Stay Connected</h3>
+      <p>Subscribe for product launches, restocks, and exclusive offers.</p>
+
+      <form class="subscribe-form" action="#contact">
+        <input
+          type="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-col">
+          <h4>LUMEN STORE</h4>
+          <p>
+            Handpicked lifestyle goods and accessories designed for everyday simplicity and timeless elegance.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#deal">Deals & Offers</a></li>
+            <li><a href="#about">Our Story</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Customer Care</h4>
+          <ul>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#home">Shipping & Returns</a></li>
+            <li><a href="#home">Privacy Policy</a></li>
+            <li><a href="#home">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <p>📍 120 Market Street, Suite 400</p>
+          <p>✉️ support@lumenstore.com</p>
+          <p>📞 +1 (800) 555-0199</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 LUMEN STORE. Built with Pure HTML and CSS.</p>
+      </div>
+    </footer>
+  </body>
+</html>
