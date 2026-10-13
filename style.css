@@ -1,3 +1,8 @@
+/* ========================================================
+   PURE CSS STYLESHEET FOR SHOPPING WEBSITE
+   Premium "Coffee & Caramel" Theme (No White Backgrounds)
+   ======================================================== */
+
 @import "tailwindcss";
 
 /* Base & Reset */
@@ -10,14 +15,14 @@
 html {
   scroll-behavior: smooth;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  color: #e2e8f0; /* Light text for dark background */
-  background-color: #0f172a; /* Deep Slate Background */
+  color: #e7e5e4; /* Light stone text */
+  background-color: #1c1917; /* Deep Espresso / Dark Brown Background */
 }
 
 /* Announcement Bar */
 .top-banner {
-  background-color: #020617;
-  color: #f8fafc;
+  background-color: #b45309; /* Deep Caramel */
+  color: #f5f5f4;
   text-align: center;
   padding: 10px 15px;
   font-size: 13px;
@@ -25,7 +30,7 @@ html {
 }
 
 .top-banner span {
-  color: #2dd4bf; /* Teal highlight */
+  color: #fef3c7; /* Light cream highlight */
   font-weight: 600;
 }
 
@@ -35,8 +40,8 @@ html {
   align-items: center;
   justify-content: space-between;
   padding: 18px 8%;
-  background-color: #1e293b; /* Darker Slate for navbar */
-  border-bottom: 1px solid #334155;
+  background-color: #292524; /* Warm Dark Grey/Brown */
+  border-bottom: 1px solid #44403c;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -47,12 +52,12 @@ html {
   font-weight: 800;
   letter-spacing: 1px;
   text-decoration: none;
-  color: #f8fafc;
+  color: #f5f5f4;
   text-transform: uppercase;
 }
 
 .navbar .logo span {
-  color: #14b8a6; /* Teal logo accent */
+  color: #d97706; /* Golden Caramel logo accent */
 }
 
 .nav-links {
@@ -63,14 +68,14 @@ html {
 
 .nav-links a {
   text-decoration: none;
-  color: #94a3b8;
+  color: #a8a29e;
   font-size: 15px;
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
 .nav-links a:hover {
-  color: #f8fafc;
+  color: #f5f5f4;
 }
 
 .nav-actions {
@@ -80,8 +85,8 @@ html {
 }
 
 .cart-btn {
-  background-color: #14b8a6; /* Teal button */
-  color: #020617; /* Dark text */
+  background-color: #d97706; /* Caramel Button */
+  color: #1c1917; /* Dark text on button */
   padding: 8px 18px;
   border-radius: 6px;
   text-decoration: none;
@@ -94,7 +99,7 @@ html {
 }
 
 .cart-btn:hover {
-  background-color: #0d9488;
+  background-color: #b45309;
 }
 
 /* Hero Section */
@@ -103,7 +108,7 @@ html {
   align-items: center;
   justify-content: space-between;
   padding: 70px 8%;
-  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); /* Dark gradient */
+  background: linear-gradient(135deg, #292524 0%, #1c1917 100%);
   gap: 40px;
 }
 
@@ -118,7 +123,7 @@ html {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #2dd4bf;
+  color: #d97706;
   margin-bottom: 14px;
 }
 
@@ -126,21 +131,21 @@ html {
   font-size: 48px;
   line-height: 1.15;
   font-weight: 800;
-  color: #f8fafc;
+  color: #f5f5f4;
   margin-bottom: 18px;
 }
 
 .hero-text p {
   font-size: 16px;
   line-height: 1.6;
-  color: #cbd5e1;
+  color: #a8a29e;
   margin-bottom: 26px;
 }
 
 .hero-btn {
   display: inline-block;
-  background-color: #f8fafc; /* White button */
-  color: #0f172a; /* Dark text */
+  background-color: #d97706;
+  color: #1c1917;
   text-decoration: none;
   padding: 13px 32px;
   border-radius: 6px;
@@ -150,7 +155,7 @@ html {
 }
 
 .hero-btn:hover {
-  background-color: #e2e8f0;
+  background-color: #b45309;
   transform: translateY(-2px);
 }
 
@@ -166,7 +171,7 @@ html {
   height: 340px;
   object-fit: cover;
   border-radius: 14px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4); /* Stronger shadow for dark mode */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5); /* Deep shadow */
 }
 
 /* Trust / Features Bar */
@@ -176,8 +181,8 @@ html {
   flex-wrap: wrap;
   gap: 20px;
   padding: 35px 8%;
-  background-color: #1e293b;
-  border-bottom: 1px solid #334155;
+  background-color: #292524;
+  border-bottom: 1px solid #44403c;
 }
 
 .feature-item {
@@ -189,18 +194,19 @@ html {
 
 .feature-icon {
   font-size: 26px;
+  color: #d97706;
 }
 
 .feature-item h4 {
   font-size: 15px;
   font-weight: 700;
-  color: #f8fafc;
+  color: #f5f5f4;
   margin-bottom: 2px;
 }
 
 .feature-item p {
   font-size: 13px;
-  color: #94a3b8;
+  color: #a8a29e;
 }
 
 /* Products Section */
@@ -219,19 +225,19 @@ html {
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #2dd4bf;
+  color: #d97706;
 }
 
 .section-header h2 {
   font-size: 34px;
   font-weight: 800;
-  color: #f8fafc;
+  color: #f5f5f4;
   margin: 8px 0 12px 0;
 }
 
 .section-header p {
   font-size: 15px;
-  color: #94a3b8;
+  color: #a8a29e;
 }
 
 /* Product Cards Grid */
@@ -242,8 +248,8 @@ html {
 }
 
 .product-card {
-  background-color: #1e293b;
-  border: 1px solid #334155;
+  background-color: #292524;
+  border: 1px solid #44403c;
   border-radius: 12px;
   overflow: hidden;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -253,7 +259,7 @@ html {
 
 .product-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
 }
 
 .product-thumb {
@@ -261,7 +267,7 @@ html {
   width: 100%;
   height: 240px;
   overflow: hidden;
-  background-color: #334155;
+  background-color: #1c1917;
 }
 
 .product-thumb img {
@@ -279,8 +285,8 @@ html {
   position: absolute;
   top: 12px;
   left: 12px;
-  background-color: #14b8a6;
-  color: #020617;
+  background-color: #b45309;
+  color: #f5f5f4;
   font-size: 11px;
   font-weight: 700;
   padding: 4px 10px;
@@ -300,7 +306,7 @@ html {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #94a3b8;
+  color: #a8a29e;
   font-weight: 600;
   margin-bottom: 6px;
 }
@@ -308,18 +314,18 @@ html {
 .product-title {
   font-size: 17px;
   font-weight: 700;
-  color: #f8fafc;
+  color: #f5f5f4;
   margin-bottom: 8px;
 }
 
 .product-rating {
   font-size: 13px;
-  color: #fbbf24; /* Golden stars */
+  color: #fbbf24;
   margin-bottom: 12px;
 }
 
 .product-rating span {
-  color: #94a3b8;
+  color: #a8a29e;
   margin-left: 4px;
   font-size: 12px;
 }
@@ -330,26 +336,26 @@ html {
   align-items: center;
   justify-content: space-between;
   padding-top: 14px;
-  border-top: 1px solid #334155;
+  border-top: 1px solid #44403c;
 }
 
 .price {
   font-size: 20px;
   font-weight: 800;
-  color: #f8fafc;
+  color: #f5f5f4;
 }
 
 .old-price {
   font-size: 14px;
-  color: #64748b;
+  color: #78716c;
   text-decoration: line-through;
   margin-left: 6px;
   font-weight: 400;
 }
 
 .buy-btn {
-  background-color: #14b8a6;
-  color: #020617;
+  background-color: #44403c; /* subtle dark button */
+  color: #f5f5f4;
   border: none;
   outline: none;
   padding: 9px 16px;
@@ -362,14 +368,15 @@ html {
 }
 
 .buy-btn:hover {
-  background-color: #0d9488;
+  background-color: #d97706; /* lights up to caramel on hover */
+  color: #1c1917;
 }
 
 /* Banner / Special Offer */
 .promo-banner {
   margin: 20px 8% 60px 8%;
-  background: linear-gradient(135deg, #0d9488 0%, #115e59 100%); /* Deep teal gradient */
-  color: #ffffff;
+  background: linear-gradient(135deg, #78350f 0%, #451a03 100%); /* Rich warm brown gradient */
+  color: #fffbeb;
   border-radius: 16px;
   padding: 50px 60px;
   display: flex;
@@ -377,6 +384,7 @@ html {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
 .promo-text h3 {
@@ -386,14 +394,14 @@ html {
 }
 
 .promo-text p {
-  color: #ccfbf1;
+  color: #fde68a;
   font-size: 15px;
   max-width: 500px;
 }
 
 .promo-btn {
-  background-color: #020617;
-  color: #f8fafc;
+  background-color: #fef3c7;
+  color: #451a03;
   padding: 14px 34px;
   border-radius: 6px;
   font-size: 15px;
@@ -403,7 +411,7 @@ html {
 }
 
 .promo-btn:hover {
-  background-color: #1e293b;
+  background-color: #fde68a;
   transform: scale(1.03);
 }
 
